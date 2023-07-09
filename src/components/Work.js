@@ -7,20 +7,20 @@ import { FaGithub, FaLink } from "react-icons/fa";
 const Work = () => {
   return (
     <section id="work" className="min-h-[85vh] lg:min-h-[100vh] mx-auto flex justify-center items-center">
-      <div className="lg:w-[57%] m-auto lg:container">
+      <div className="lg:w-[80%] w-[100%] m-auto">
         <div className="flex flex-col lg:flex-row gap-x-10 lg:overflow-x-scroll scrollbar-none">
           <motion.div
             variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once:false, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="flex-1 flex flex-col lg:gap-y-12 mb-10 lg:mb-0"
           >
-            <div className="w-[100%] lg:w-[100%] flex flex-col lg:flex-row gap-10 justify-center items-center">
+            <div className="w-60% flex flex-col lg:flex-row gap-10 justify-center items-center">
               {PROJECTS.map((project) => {
                 const { id, name, about, catagory, src } = project;
                 return (
-                  <div className="lg:w-[500px] w-[70%] bg-white shadow-lg" key={id}>
+                  <div className="lg:w-[500px] w-[70%] bg-white" key={id}>
                     <div className="group relative overflow-hidden border-2 border-gradient">
                       <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
                       <img
@@ -36,7 +36,7 @@ const Work = () => {
                       </div>
                     </div>
                     <div className="bg-white p-5">
-                      <div className="text-black max-h-[150px] overflow-y-scroll scrollbar-none  ">
+                      <div className="text-black max-h-[100px] overflow-y-scroll scrollbar-none ">
                         {about}
                       </div>
                       <div className="flex justify-between">
