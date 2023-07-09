@@ -70,7 +70,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="min-h-[85vh] lg:min-h-[76vh] mt-[400px] flex flex-col justify-center items-center" id='contact'>
+    <div className="min-h-[85vh] lg:min-h-[76vh] lg:mt-[400px] flex flex-col justify-center items-center " id='contact'>
       <Snackbar
         open={openSnackbar.open}
         autoHideDuration={3000}

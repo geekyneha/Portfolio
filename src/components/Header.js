@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../assets/logo.png'
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return <header className='py-8 '>
@@ -8,7 +9,13 @@ const Header = () => {
      <div className='flex justify-between items-center'>
       <img src={logo} alt="Neha" width={100} />
 
-      <button className='btn btn-sm'>Work with me</button>
+<Link to="contact"  smooth={true}
+            spy={true}
+            offset={-100}
+            activeClass="active" >
+<button className='btn btn-sm cursor-pointer' >Contact me</button>
+</Link>
+      
 
      </div>
     </div>

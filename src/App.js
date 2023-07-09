@@ -4,9 +4,8 @@ import Banner from './components/Banner';
 import Header from './components/Header';
 
 import About from './components/About';
-import Services from './components/Services';
+import Education from './components/Education';
 import Work from './components/Work';
-import Contact from './components/Contact';
 import NavBar from './components/NavBar';
 import ContactUs from './components/ContactUs/ContactUs';
 import Skills from './components/Skills';
@@ -22,10 +21,11 @@ const App = () => {
       
       <NavBar />
    
-      <Services />
+      <Education />
+      <Skills/>
       <Work />
       
-      <Skills/>
+      
       
      
     

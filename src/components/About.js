@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="min-h-[85vh] lg:h-[80vh] mt-1 flex justify-center items-center"
+      className="min-h-[100vh] lg:min-h-[100vh] mt-1 flex justify-center items-center"
       ref={ref}
     >
       <div className="container mx-auto">
@@ -41,20 +41,22 @@ const About = () => {
           >
             <h2 className="h2 text-accent">About me</h2>
             <h3 className="h3 mb-4">
-              I'm a frontend developer Lorem ipsum dolor sit.
+            Hello, world!<br/>
+            I am Neha Khan—a fervent frontend developer
             </h3>
             <p className="mb-6">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
-              aut deserunt vel minima tempore maiores!
+            As a frontend developer, my expertise lies in HTML, CSS, JavaScript, and React. With a solid foundation in these technologies, I possess the skills to transform static designs into dynamic and engaging web interfaces. My continuous learning mindset keeps me updated with the latest trends, enabling me to bring fresh perspectives and innovative ideas to every project I undertake.
             </p>
             <div>
               <div className="flex gap-x-6 lg:gap-x-10 mb-12">
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={13} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={4} duration={3} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Years of <br />
-                  Exp
+                  months of <br />
+                  Exp <br />
+                  <span className="font-secondary text-gradient">As a Frontend Developer Trainee At FunctionUp</span>
+
                 </div>
               </div>
               <button className="btn btn-lg">Contact</button>

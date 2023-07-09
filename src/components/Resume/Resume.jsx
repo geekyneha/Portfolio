@@ -20,7 +20,7 @@ const Resume = () => {
       <p>
         Page {pageNumber} of {numPages}
       </p> */}
-     <div className="ResumeContainer min-h-[85vh] lg:min-h-[70vh] mt-[400px]" id="resume">
+     <div className="ResumeContainer min-h-[85vh] lg:min-h-[70vh] lg:mt-[400px] h-fit" id="resume">
      <div className="myCustomClass">
         <iframe
           loading="lazy"

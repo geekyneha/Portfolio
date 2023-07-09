@@ -13,6 +13,7 @@ import { MdTipsAndUpdates } from "react-icons/md";
 import { RiContactsBookLine } from "react-icons/ri";
 import { FcDocument } from "react-icons/fc";
 
+
 const NavBar = () => {
   return (
     <nav className="fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50">
@@ -33,36 +34,41 @@ const NavBar = () => {
             activeClass="active"
             smooth={true}
             spy={true}
+           
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <BiUser />
           </Link>
           <Link
-            to="services"
+            to="education"
             activeClass="active"
             smooth={true}
             spy={true}
+            offset={10}
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <SiMicrosoftacademic />
+          </Link>
+     
+          <Link
+            to="skills"
+            activeClass="active"
+            smooth={true}
+            spy={true}
+            offset={65}
+            className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
+          >
+            <MdTipsAndUpdates />
           </Link>
           <Link
             to="work"
             activeClass="active"
             smooth={true}
             spy={true}
+            offset={50}
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <BsPersonWorkspace />
-          </Link>
-          <Link
-            to="skills"
-            activeClass="active"
-            smooth={true}
-            spy={true}
-            className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
-          >
-            <MdTipsAndUpdates />
           </Link>
           <Link
             to="resume"
