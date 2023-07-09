@@ -3,8 +3,8 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: 'Orbitron',
-      secondary: 'Rajdhani',
-      tertiary: 'Aldrich',
+      secondary:'Rajdhani',
+      tertiary:'Aldrich',
     },
     container: {
       padding: {
@@ -25,7 +25,7 @@ module.exports = {
       backgroundImage: {
         site: "url('./assets/site-bg.jpg')",
         about: "url('./assets/about.png')",
-        services: "url('./assets/services.png')",
+        services: "url('./assets/work.jp)",
       },
     },
   },
