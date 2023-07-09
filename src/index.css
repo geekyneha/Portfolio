@@ -22,15 +22,18 @@
     #ff56f6 117.04%
   );
 }
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
 
 .gradient,
 .active {
   background: linear-gradient(
     92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
   );
 }
 
@@ -39,6 +42,7 @@
   padding: 1rem;
   border-radius: 100%;
 }
+
 
 @layer base {
   body {
