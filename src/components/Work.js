@@ -20,7 +20,7 @@ const Work = () => {
               {PROJECTS.map((project) => {
                 const { id, name, about, catagory, src,githubLink,deployedLink } = project;
                 return (
-                  <div className="lg:w-[500px] w-[70%] gradient rounded-tl-2xl rounded-tr-2xl p-2 rounded-bl-2xl rounded-br-2xl" key={id}>
+                  <div className="lg:w-[500px] w-[90%] gradient rounded-tl-2xl rounded-tr-2xl p-2 rounded-bl-2xl rounded-br-2xl" key={id}>
                     <div className="group relative overflow-hidden border-2 border-gradient">
                       <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
                       <img

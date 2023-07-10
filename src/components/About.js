@@ -59,7 +59,7 @@ const About = () => {
 
                 </div>
               </div>
-              <button className="btn btn-lg">Contact</button>
+              <button className="btn btn-lg">Let's connect</button>
             </div>
           </motion.div>
         </div>
