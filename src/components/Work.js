@@ -14,7 +14,7 @@ const Work = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex flex-col lg:gap-y-12 mb-10 lg:mb-0 lg:static relative left-18"
+            className="flex-1 flex flex-col lg:gap-y-12 mb-10 lg:mb-0 lg:static relative left-15"
           >
             <div className="w-full flex flex-col lg:flex-row gap-10 justify-center items-center">
               {PROJECTS.map((project) => {
