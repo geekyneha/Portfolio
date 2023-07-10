@@ -16,15 +16,15 @@ const Work = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 flex flex-col lg:gap-y-12 mb-10 lg:mb-0"
           >
-            <div className="w-60% flex flex-col lg:flex-row gap-10 justify-center items-center">
+            <div className="w-60% flex flex-col lg:flex-row gap-10 justify-center items-center ">
               {PROJECTS.map((project) => {
-                const { id, name, about, catagory, src } = project;
+                const { id, name, about, catagory, src,githubLink,deployedLink } = project;
                 return (
-                  <div className="lg:w-[500px] w-[70%] bg-white" key={id}>
+                  <div className="lg:w-[500px] w-[70%] gradient rounded-tl-2xl rounded-tr-2xl p-2 rounded-bl-2xl rounded-br-2xl" key={id}>
                     <div className="group relative overflow-hidden border-2 border-gradient">
                       <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
                       <img
-                        className="group-hover:scale-125 transition-all duration-500 w-full h-[300px]"
+                        className="group-hover:scale-125 transition-all duration-500 w-full h-[300px] "
                         src={src}
                         alt=""
                       />
@@ -35,19 +35,19 @@ const Work = () => {
                         <span className="text-white">{catagory}</span>
                       </div>
                     </div>
-                    <div className="bg-white p-5">
+                    <div className="bg-white p-5  ">
                       <div className="text-black max-h-[100px] overflow-y-scroll scrollbar-none ">
                         {about}
                       </div>
                       <div className="flex justify-between">
                         <a
-                          href="https://github.com/geekyneha"
+                          href={githubLink}
                           className="btn text-white p-3 rounded-full"
                         >
                           <FaGithub size={30} />
                         </a>
                         <a
-                          href="https://github.com/geekyneha"
+                          href={deployedLink}
                           className="btn text-white p-3 rounded-full"
                         >
                           <FaLink size={30} />

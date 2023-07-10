@@ -5,7 +5,7 @@ import { fadeIn } from '../variants';
 
 const Skills = () => {
   return (
-    <div className='min-h-[100vh] lg:mb-[500px] flex items-center' id='skills'>
+    <div className='min-h-[100vh] flex items-center' id='skills'>
       
         <div className='container mx-auto h-fit '>
         <h2 className="h2 text-accent text-center mb-[90px]" >Skills</h2>
