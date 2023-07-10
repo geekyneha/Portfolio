@@ -138,7 +138,7 @@ const ContactUs = () => {
                 variant="contained"
                 color="primary"
                 fullWidth
-                className="btn"
+                className="btn mt-10"
               >
                 Submit
               </Button>

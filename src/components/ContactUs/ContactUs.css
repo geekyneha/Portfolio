@@ -1,6 +1,5 @@
 .contact-form {
- 
-background-color: #fff;
+ background-color:  rgb(238, 198, 234);
   width: 50%;
   border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -51,6 +50,7 @@ background-color: #fff;
   );
   border: none;
   cursor: pointer;
+  
 }
 @media (max-width: 768px) {
   .contact-form {
