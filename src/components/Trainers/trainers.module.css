@@ -1,0 +1,84 @@
+/* Google font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* projects */
+.All-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-family: "Poppins", sans-serif;
+  margin: 2rem;
+  padding: 1rem;
+  
+}
+
+.about-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 3rem 0;
+  padding: 5rem;
+
+}
+.about-team > p {
+  font-size: 1.3rem;
+  width: 40vw;
+  text-align: center;
+}
+/* projects Card */
+.card {
+  display: flex;
+  flex-direction: column;
+ background: #fff;
+  align-items: center;
+  color: white;
+  
+  width: 400px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+/* Trainer details */
+.image {
+  border-radius: 8px;
+}
+.name {
+  color: darkred;
+}
+.about {
+  padding: 3rem 5rem;
+  color: white
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width:600px) {
+  .about-team > p{
+
+    width: 122vw;
+  }
+  .card {
+    font-size: 1.5rem;
+    width:300px;
+  }
+  
+}
+
+@media (max-width:300px) {
+  .about-team > p{
+
+    width: 122vw;
+  }
+  .card {
+    font-size: 1.5rem;
+    width: 95vw;
+  }
+  
+}
