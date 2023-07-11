@@ -23,7 +23,7 @@ const Projects = () => {
 
                   {/* img */}
                   <img
-                    className="group-hover:scale-125 transition-all duration-500 w-full h-[300px]"
+                    className="group-hover:scale-125 transition-all duration-500 w-full h-fit object-scale-down "
                     src={src}
                     alt=""
                   />

@@ -11,7 +11,7 @@ export const  PROJECTS=[
     id: uuidv4(),
     name: "Gym website",
    about:"The Gym Website is an interactive platform for a fitness center that demonstrates my expertise in web development, UX design, and the utilization of libraries. It incorporates a sticky header, user registration/login functionality, an engaging About Us section featuring a YouTube video, scrollable Training Programs, a dedicated Trainer section, Pricing details, and seamless integration with social media. This project serves as a testament to my skills in creating dynamic websites for fitness centers, offering a visually appealing and user-friendly experience to visitors.",
-   catagory:"Fitness/Health & Wellness",
+   catagory:"Fitness & Wellness",
    src:image1,
    githubLink:"https://github.com/geekyneha/gym-website",
    deployedLink:"gym-clubb.vercel.app"
@@ -29,7 +29,7 @@ export const  PROJECTS=[
     id: uuidv4(),
     name: "Kanban Board",
    about:": This project introduces a simple implementation of a Kanban Board, an effective tool for visualizing and managing work tasks. The Kanban Board utilizes Post-it notes to represent tasks and their statuses, providing an intuitive system for tracking progress.",
-   catagory:"Project Managemen/Productivity",
+   catagory:"Productivity",
    src:image3,
    githubLink:"https://github.com/shubham-tiwari171/kanban-project/tree/development#README.md",
    deployedLink:"https://kanban-project-tm7o.vercel.app"

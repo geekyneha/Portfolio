@@ -48,7 +48,7 @@ const About = () => {
             I am Neha Khan! 
             </h3>
             <p className="mb-6">
-            A dedicated and fervent frontend developerr with a deep love for crafting exceptional digital experiences. With a curious mind and an unwavering attention to detail, I harmonize design aesthetics with the power of code to create stunning and user-centric websites and applications.
+            A dedicated and fervent frontend developer with a deep love for crafting exceptional digital experiences. With a curious mind and an unwavering attention to detail, I harmonize design aesthetics with the power of code to create stunning and user-centric websites and applications.
             
             </p>
             <div>

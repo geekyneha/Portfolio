@@ -17,7 +17,7 @@ const Resume = () => {
         id="resume"
       >
         <div className="flex flex-row justify-between">
-          <h2 className="h2 text-accent text-center self-center"> Resume</h2>
+          <h2 className="h2 text-accent text-center self-center relative top-4">Resume</h2>
           <button className="btn btn-sm self-end" onClick={handleDownload}>
             Download
           </button>
