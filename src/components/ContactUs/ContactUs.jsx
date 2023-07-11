@@ -70,7 +70,10 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="min-h-[85vh] lg:min-h-[76vh] lg:mt-[400px] flex flex-col justify-center items-center " id='contact'>
+    <div
+      className="min-h-[85vh] lg:min-h-[100vh] flex flex-col justify-center items-center"
+      id="contact"
+    >
       <Snackbar
         open={openSnackbar.open}
         autoHideDuration={3000}
@@ -91,9 +94,8 @@ const ContactUs = () => {
         </MuiAlert>
       </Snackbar>
       <div class="container contact-form ">
-        
         <form ref={form} onSubmit={handleSubmit}>
-          <h3 className="h3 text-gradient">Drop a Message</h3>
+          <h3 className="h3 text-gradient">Get in Touch!</h3>
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
@@ -120,7 +122,7 @@ const ContactUs = () => {
             <div class="col-md-6">
               <div class="form-group">
                 <TextField
-                  label="Message"
+                  label="Drop a Message"
                   name="message"
                   multiline
                   fullWidth
@@ -128,7 +130,6 @@ const ContactUs = () => {
                   margin="normal"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                 
                 />
               </div>
             </div>
@@ -138,7 +139,7 @@ const ContactUs = () => {
                 variant="contained"
                 color="primary"
                 fullWidth
-                className="btn mt-10"
+                className="btn"
               >
                 Submit
               </Button>
@@ -146,6 +147,7 @@ const ContactUs = () => {
           </div>
         </form>
       </div>
+      <div className="h2 text-white mt-[100px] text-center">Thank you for visinting!</div>
     </div>
   );
 };

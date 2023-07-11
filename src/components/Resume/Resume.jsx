@@ -1,36 +1,36 @@
-import React, { useState } from "react";
-// import { Document, pdfjs, Page } from "react-pdf";
-// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-// import resumePDF from "./Resume_Shubham_tiwari.pdf";
+import React from "react";
 import "./Resume.css";
+import resume from "./Resume_Neha_Khan.pdf";
+
 const Resume = () => {
-  const [numPages, setNumPages] = useState(0);
-  const [pageNumber, setPageNumber] = useState(1);
-  const onDocumentLoadSuccess = ({ numPages }) => {
-    setNumPages(numPages);
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = resume;
+    link.download = "Resume_Neha_Khan.pdf";
+    link.click();
   };
 
   return (
     <>
-      {/* {" "}
-      <Document
-        file={resumePDF}
-        onLoadSuccess={onDocumentLoadSuccess}
-      ></Document>
-      <p>
-        Page {pageNumber} of {numPages}
-      </p> */}
-     <div className="ResumeContainer min-h-[85vh] lg:min-h-[70vh] lg:mt-[400px] h-fit" id="resume">
-     <div className="myCustomClass">
-        <iframe
-          loading="lazy"
-          className="myIframeCustomClass"
-          src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFnAeef7ww&#x2F;view?embed" 
-        ></iframe>
+      <div
+        className="ResumeContainer min-h-[100vh] lg:min-h-[100vh] lg:mt-[400px] h-fit"
+        id="resume"
+      >
+        <div className="flex flex-row justify-between">
+          <h2 className="h2 text-accent text-center self-center"> Resume</h2>
+          <button className="btn btn-sm self-end" onClick={handleDownload}>
+            Download
+          </button>
+        </div>
+        <div className="myCustomClass">
+          <div className="container mx-auto h-fit"></div>
+          <iframe
+            loading="lazy"
+            className="myIframeCustomClass"
+            src="https://www.canva.com/design/DAFoPhzLH5Q/view?embed"
+          ></iframe>
+        </div>
       </div>
-
-     </div>
-  
     </>
   );
 };

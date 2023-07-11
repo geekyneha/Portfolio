@@ -11,9 +11,9 @@ const Header = () => {
 
 <Link to="contact"  smooth={true}
             spy={true}
-            offset={-100}
+        
             activeClass="active" >
-<button className='btn btn-sm cursor-pointer' >Contact me</button>
+<button className='btn btn-sm cursor-pointer' >let's connect!</button>
 </Link>
       
 

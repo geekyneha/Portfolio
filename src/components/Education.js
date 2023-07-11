@@ -32,7 +32,7 @@ const education = [
 ];
 const Education = () => {
   return (
-    <section className="min-h-[100vh] lg:min-h-[99vh] flex items-center"  id="education">
+    <section className="min-h-[100vh] lg:max-h-[98vh] flex items-center"  id="education">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-center items-center">
           <motion.div
@@ -42,11 +42,11 @@ const Education = () => {
           viewport={{once:false,amount:0.3}}
 
            className="flex-1 lg:bg-education lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0">
-            <h2 className="h2 text-accent mt-20" >Eduacation</h2>
+            <h2 className="h2 text-accent mt-20 " >Academic Qualifications</h2>
             <h3 className="h4 max-w-[455px] mb-16">
-            Graduating in 2022, I embarked on a journey to dive deep into the world of web development. My curiosity and drive led me to an enriching internship, where I honed my foundational skills and discovered the endless possibilities of creating interactive web interfaces. During this experience, I immersed myself in the essentials of web development, gaining expertise in HTML, CSS, and the art of crafting visually appealing and responsive layouts.
+           Having Graduated in 2022, I embarked on a journey to dive deep into the world of web development.Currently, I am proudly serving as a frontend dev trainee at FunctionUp, an environment that has nourished my growth and passion for frontend development. Here, I have delved into the world of modern web development, expanding my skill set to include the powerful React.js framework. Armed with this technology, I have been able to bring web applications to life, leveraging its capabilities to create dynamic and immersive user interfaces.
             </h3>
-            <Link to="work"><button className="btn btn-sm">see my Work</button></Link>
+          <div className="mx-auto max-w-[400px]">  <Link to="skills" ><button className="btn btn-sm ">Areas of Expertise</button></Link></div>
           </motion.div>
         
         {/* servies */}

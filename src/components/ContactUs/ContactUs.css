@@ -1,6 +1,5 @@
 .contact-form {
- 
-background-color: #fff;
+  background-color: #fff;
   width: 50%;
   border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -14,7 +13,6 @@ background-color: #fff;
   border-radius: 1rem;
 }
 
-
 .contact-form form {
   padding: 10%;
 }
@@ -25,7 +23,6 @@ background-color: #fff;
   margin-bottom: 8%;
   margin-top: -10%;
   text-align: center;
- 
 }
 .contact-form .btnContact {
   width: 50%;

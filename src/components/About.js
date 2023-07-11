@@ -6,6 +6,8 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import aboutImage from "../assets/About-removebg-preview.png";
+import { Link } from 'react-scroll';
+
 const About = () => {
   const [ref, inView] = useInView({
     threshold: 0.5,
@@ -13,7 +15,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="min-h-[100vh] lg:min-h-[100vh] mt-1 flex justify-center items-center"
+      className="section"
       ref={ref}
     >
       <div className="container mx-auto">
@@ -39,27 +41,33 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1"
           >
-            <h2 className="h2 text-accent">About me</h2>
-            <h3 className="h3 mb-4">
-            Hello, world!<br/>
-            I am Neha Khan—a fervent frontend developer
+            <h2 className="h2 text-accent">Who Am I?</h2>
+            
+            <h3 className="h3 mb-4 ">
+           <span className="text-gradient">  Hello,</span><br/>
+            I am Neha Khan! 
             </h3>
             <p className="mb-6">
-            As a frontend developer, my expertise lies in HTML, CSS, JavaScript, and React. With a solid foundation in these technologies, I possess the skills to transform static designs into dynamic and engaging web interfaces. My continuous learning mindset keeps me updated with the latest trends, enabling me to bring fresh perspectives and innovative ideas to every project I undertake.
+            A dedicated and fervent frontend developerr with a deep love for crafting exceptional digital experiences. With a curious mind and an unwavering attention to detail, I harmonize design aesthetics with the power of code to create stunning and user-centric websites and applications.
+            
             </p>
             <div>
-              <div className="flex gap-x-6 lg:gap-x-10 mb-12">
+              <div className="flex gap-x-6 lg:gap-x-10 mb-12 mx-auto">
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
                   {inView ? <CountUp start={0} end={4} duration={3} /> : null}
                 </div>
-                <div className="font-primary text-sm tracking-[2px]">
+                <div className="font-primary text-sm tracking-[2px] ">
                   months of <br />
-                  Exp <br />
-                  <span className="font-secondary text-gradient">As a Frontend Developer Trainee At FunctionUp</span>
+                  Experience <br />
+                  <span className="font-secondary text-gradient ">As a Frontend Developer<br /> Trainee At FunctionUp</span>
 
                 </div>
               </div>
-              <button className="btn btn-lg">Let's connect</button>
+              <Link to="education"  smooth={true}
+            spy={true}
+           
+            activeClass="active" ><div className="w-fit mx-auto"> <button className="btn btn-lg mx-auto">My Education</button></div>
+            </Link>
             </div>
           </motion.div>
         </div>
