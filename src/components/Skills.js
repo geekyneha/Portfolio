@@ -32,7 +32,7 @@ const Skills = () => {
             spy={true}
            
             activeClass="active" >
-       <button className="btn btn-lg mt-[100px]">see my work</button>
+       <button className="btn btn-lg lg:mt-[100px] hidden lg:block ">see my work</button>
        </Link>
           
      </div>

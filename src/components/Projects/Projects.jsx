@@ -10,7 +10,7 @@ const Projects = () => {
         className="min-h-[100vh] lg:min-h-[100vh] flex flex-col justify-center items-center"
         id="work"
       >
-         <h2 className="h2 text-accent text-center p-0">Projects</h2>
+         <h2 className="h2 text-accent text-center ">Projects</h2>
         
         <div className={style["All-projects"]}>
           {PROJECTS.map((project) => {
