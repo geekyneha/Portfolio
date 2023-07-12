@@ -5,6 +5,7 @@ module.exports = {
       primary: ['Montserrat', 'sans-serif'],
       secondary: ['Roboto', 'sans-serif'],
       tertiary: ['Lato', 'sans-serif'],
+      quaternary:['Orbitron', 'sans-serif']
     },
     container: {
       padding: {

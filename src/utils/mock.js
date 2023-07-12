@@ -14,7 +14,7 @@ export const  PROJECTS=[
    catagory:"Fitness & Wellness",
    src:image1,
    githubLink:"https://github.com/geekyneha/gym-website",
-   deployedLink:"gym-clubb.vercel.app"
+   deployedLink:"https://gym-clubb.vercel.app"
   },
   {
     id: uuidv4(),
@@ -23,7 +23,7 @@ export const  PROJECTS=[
    catagory:"Document Office",
    src:image2,
    githubLink:"https://github.com/geekyneha/google-doc/",
-   deployedLink:"google-document-clone.vercel.app"
+   deployedLink:"https://google-document-clone.vercel.app"
   },
   {
     id: uuidv4(),
