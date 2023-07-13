@@ -185,7 +185,7 @@ const ContactUs = () => {
           </div>
         </form>
       </div>
-      <div className="h2 text-white mt-[100px] text-center">Thank you for visinting!</div>
+      <div className="h2 text-white mt-[100px] text-center">Thank you for visiting!</div>
     </div>
   );
 };

@@ -82,7 +82,7 @@ const Banner = () => {
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 text-center"
             >
               <a
-                href="https://github.com/geekyneha"
+                href="https://www.linkedin.com/in/nehatualea"
                 className="bg-blue-400 p-1 rounded-xl"
               >
                 <FaLinkedinIn size={30} />
