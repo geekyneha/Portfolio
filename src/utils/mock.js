@@ -17,7 +17,7 @@ export const PROJECTS = [
       "Have Yum is a delightful food delivery platform that offers a user-friendly experience. This project incorporates menu browsing, restaurant search, food selection, cart management, and aims to enhance the user's overall dining experience.",
     catagory: "Food Delivery",
     src: image6,
-    githubLink: "https://github.com/geekyneha/HaveYum/blob/main/README.md", // Replace with your GitHub
+    githubLink: "https://github.com/geekyneha/HaveYum/#README.md", // Replace with your GitHub
     deployedLink: "https://have-yum.vercel.app/", // Replace with the deployed application link
   },
   {
@@ -27,7 +27,7 @@ export const PROJECTS = [
       "Bliss Bond Weddings is a meticulously crafted wedding planning platform. This project utilizes technologies like React, Material-UI, Axios, and Formik to create an elegant and user-friendly interface. It aims to simplify the wedding planning process, providing users with tools to customize their special day effortlessly.",
     catagory: "Wedding Planning",
     src: image5,
-    githubLink: "https://github.com/geekyneha/bliss-bond/blob/main/README.md",
+    githubLink: "https://github.com/geekyneha/bliss-bond/#README.md",
     deployedLink: "https://bliss-bond.vercel.app/",
   },
   {
