@@ -15,7 +15,7 @@ export const PROJECTS = [
     name: "Have Yum",
     about:
       "Have Yum is a delightful food delivery platform that offers a user-friendly experience. This project incorporates menu browsing, restaurant search, food selection, cart management, and aims to enhance the user's overall dining experience.",
-    category: "Food Delivery",
+    catagory: "Food Delivery",
     src: image6,
     githubLink: "https://github.com/geekyneha/HaveYum/blob/main/README.md", // Replace with your GitHub
     deployedLink: "https://have-yum.vercel.app/", // Replace with the deployed application link

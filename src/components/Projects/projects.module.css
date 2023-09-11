@@ -5,12 +5,15 @@
 .All-projects {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
   font-family: "Poppins", sans-serif;
   margin: 2rem;
   padding: 1rem;
   overflow-x: scroll;
-  width: 90vw;
+  width: 85vw;
+}
+.All-projects::-webkit-scrollbar{
+  display: none;
 }
 
 .about-team {
