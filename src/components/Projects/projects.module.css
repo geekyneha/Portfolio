@@ -4,14 +4,13 @@
 /* projects */
 .All-projects {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
   gap: 2rem;
   font-family: "Poppins", sans-serif;
   margin: 2rem;
   padding: 1rem;
-  
+  overflow-x: scroll;
+  width: 90vw;
 }
 
 .about-team {
@@ -60,6 +59,10 @@
 }
 
 @media (max-width:600px) {
+  .All-projects{
+    overflow-x: auto;
+    flex-wrap: wrap;
+  }
   .about-team > p{
 
     width: 122vw;
@@ -68,6 +71,7 @@
     font-size: 1.5rem;
     width:300px;
   }
+
   
 }
 

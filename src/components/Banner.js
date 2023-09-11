@@ -1,17 +1,10 @@
 import React from "react";
 import Image from "../assets/web-removebg-preview.png";
-import {
-  FaGithub,
-  FaLinkedin,
-  FaInstagram,
-  FaLink,
-  FaLinkedinIn,
-} from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import { Link } from "react-scroll";
-
 
 const Banner = () => {
   return (
@@ -64,14 +57,9 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max mb-12 mx-auto lg:mx-0 lg:text-left"
             >
-              <Link
-            to="about"
-            activeClass="active"
-            smooth={true}
-            spy={true}>
-               <button className="btn btn-lg ">About me</button>
-            </Link>
-             
+              <Link to="about" activeClass="active" smooth={true} spy={true}>
+                <button className="btn btn-lg ">About me</button>
+              </Link>
             </motion.div>
 
             <motion.div
