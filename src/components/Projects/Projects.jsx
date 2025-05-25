@@ -1,7 +1,6 @@
 import style from "./projects.module.css";
 import { PROJECTS } from "../../utils/mock.js";
 import { FaGithub, FaLink } from "react-icons/fa";
-import { Link } from "react-scroll";
 const Projects = () => {
   return (
     <>
